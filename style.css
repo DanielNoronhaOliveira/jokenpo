@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;/* centralizar*/
+    align-items: center; /* alinhar itens ao centro*/
+    min-height: 100vh; /* serviu para deixar os elementos centralizados*/
+}
+.jokenpo {
+    background: chartreuse;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botaos {
+    display: inline;
+    margin:30px 0px 30px;
+    
+}
+
+.resultado{
+    color: red;
+}
+#pedra {
+    background: dodgerblue;
+    width: 100px;
+    font-size: 60px;
+    cursor: pointer;
+}
+#pedra:hover{
+    opacity: 0.8;
+}
+#papel{
+    background: blueviolet;
+    width: 100px;
+    font-size: 60px;
+    cursor: pointer;
+}
+#papel:hover{
+    opacity: 0.8;
+}
+#tesoura{
+    background: palevioletred;
+    width: 100px;
+    font-size: 60px;
+    cursor: pointer;
+    
+}
+#tesoura:hover{
+    opacity: 0.8;
+}
+#humano{
+    color:blue;
+    font-size: 30px;
+}
+#robo{
+    color:  maroon;
+    font-size: 30px;
+}

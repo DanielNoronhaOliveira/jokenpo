@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOKENPO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="jokenpo">
+        <h1>jokenpo</h1>
+        <div class="botaos">
+            <button id="pedra" onclick="escolhas('pedra')">&#128074;</button>
+            <button id="papel" onclick="escolhas('papel')">&#x1F590;</button>
+            <button id="tesoura" onclick="escolhas('tesoura')">&#9996;</button>
+        </div>
+
+        <h2 class="resultado"></h2>
+
+        <h2 class="meus-pontos">sua pontuacao: <span id="humano">0</span></h2>
+        <h2 class="pontos-robo">pontuacao do robo: <span id="robo">0</span></h2>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
